@@ -9,3 +9,10 @@ I got inspired by Florin Pop to take this challenge. :)
   <li>Future Date</li>
 </ul>
 
+<h4>Day 2</h4>
+
+<ul>
+  <li>Game</li>
+  <li>Flip the card</li>
+</ul>
+
