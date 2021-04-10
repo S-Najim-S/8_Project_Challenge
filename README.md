@@ -16,3 +16,8 @@ I got inspired by Florin Pop to take this challenge. :)
   <li>Flip the card</li>
 </ul>
 
+<ul>
+  <li>Game</li>
+  <li>Hit the mole</li>
+</ul>
+
