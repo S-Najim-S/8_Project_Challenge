@@ -34,11 +34,11 @@ function counter() {
   currentTime--;
   secondsLeft.textContent = currentTime;
 
-  if ((currentTime = 0)) {
+  if (currentTime === 0) {
     clearInterval(timerId);
     alert(`Game Over! you hit the mole ${score} times.`);
   }
 }
 // initial game start
 moveMole();
-let timerId = setInterval(counter, 550);
+let timerId = setInterval(counter, 1000);
