@@ -20,4 +20,8 @@ I got inspired by Florin Pop to take this challenge. :)
   <li>Game</li>
   <li>Hit the mole</li>
 </ul>
+<ul>
+  <li>Game</li>
+  <li>Rock paper scissor</li>
+</ul>
 
