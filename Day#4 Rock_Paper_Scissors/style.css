@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-family: Martel;
+}
+body {
+  background-color: white;
+  color: #3d3d3d;
+  min-width: 610px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}
+#scores {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+#scores p {
+  font-size: 28px;
+}
+.game-screen {
+  text-align: center;
+  margin-top: 50px;
+}
+button {
+  border: none;
+  background-color: rgb(226, 209, 209);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* outline: #3d3d3d; */
+  outline: none;
+}
+button:hover {
+  background-color: #e5baba;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding: 140px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
