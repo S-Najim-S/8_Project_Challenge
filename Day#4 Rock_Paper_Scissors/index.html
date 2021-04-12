@@ -10,33 +10,45 @@
     ></script>
     <script src="scipt.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Base Project</title>
+    <title>Rock Paper Scissor</title>
   </head>
   <body>
-    <section id="scores">
-      <div class="score">
-        <h2>Player</h2>
-        <p>0</p>
+    <div id="scores">
+      <div>
+        <h2 id="player-name">Player</h2>
+        <p id="player-score">0</p>
       </div>
-      <div class="score">
-        <h2>AI</h2>
-        <p>0</p>
+      <h2>:</h2>
+      <div>
+        <h2 id="ai-name">Computer</h2>
+        <p id="ai-score">0</p>
       </div>
-    </section>
-    <div class="game-screen">
-      <h1>Start the game!</h1>
-      <button>Start Playing</button>
+    </div>
+    <div class="intro">
+      <h1>Rock - Paper - Scissor</h1>
+      <p>
+        Who ever wins 5 time will win the game. Test your luck against computer
+      </p>
+      <button id="start-btn">Start Playing</button>
+      <div class="hands">
+        <img src="img/rock.png" alt="rock" />
+        <img src="img/paper.png" alt="paper" />
+        <img src="img/scissor.png" alt="scissor" />
+      </div>
     </div>
 
-    <div class="choices">
-      <img id="ai-choice" src="img/rock.png" alt="" />
-      <img id="player-choice" src="img/rock.png" alt="" />
-    </div>
+    <div class="game-display hide">
+      <h1 id="message">Select an option!</h1>
+      <div class="choices">
+        <img id="player-choice" src="img/rock.png" alt="" />
+        <img id="ai-choice" src="img/rock.png" alt="" />
+      </div>
 
-    <div class="options">
-      <button id="rock">Rock</button>
-      <button id="paper">Paper</button>
-      <button id="scissor">Scissor</button>
+      <div class="options">
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissor">scissor</button>
+      </div>
     </div>
   </body>
 </html>

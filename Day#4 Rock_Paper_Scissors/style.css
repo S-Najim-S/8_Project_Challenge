@@ -10,6 +10,7 @@ body {
   background-color: white;
   color: #3d3d3d;
   min-width: 610px;
+  overflow: hidden;
 }
 img {
   display: block;
@@ -17,18 +18,29 @@ img {
   height: 100px;
 }
 #scores {
-  padding-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 }
 #scores p {
   font-size: 28px;
 }
-.game-screen {
+#scores h2 {
+  margin: 30px;
+}
+.intro {
   text-align: center;
   margin-top: 50px;
+}
+.hands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hands img {
+  margin: 50px 80px;
 }
 button {
   border: none;
@@ -37,24 +49,80 @@ button {
   width: 100px;
   border-radius: 10px;
   cursor: pointer;
-  /* outline: #3d3d3d; */
   outline: none;
 }
 button:hover {
   background-color: #e5baba;
+}
+#start-btn {
+  margin: 20px 0;
 }
 
 .choices {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
+  align-items: center;
   margin: 0 auto;
+  margin-top: 80px;
+}
+#ai-choice {
+  transform: rotateY(180deg);
 }
 .options {
-  display: flex;
-  justify-content: space-around;
-  padding: 140px;
-  padding-top: 70px;
-  margin: 0 auto;
+  margin-top: 30px;
+}
+.game-display {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.hide {
+  display: none;
+}
+@keyframes aiShake {
+  0% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  15% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  30% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  45% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  60% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  75% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  100% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+}
+@keyframes playerShake {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-50px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(-50px);
+  }
+  60% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
