@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-family: Martel;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe3f1;
+}
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.color {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+.color-1 {
+  background-color: #4b4a54;
+  margin-right: 50px;
+}
+.color-2 {
+  background-color: #a3cfcd;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.game-display {
+  border: 10px solid #303030;
+  height: 320px;
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.game-display div {
+  height: 50px;
+  width: 50px;
+}
+.player-one {
+  background-color: #4b4a54;
+  border-radius: 50%;
+}
+.player-two {
+  background-color: #a3cfcd;
+  border-radius: 50%;
+}
+.wrapper {
+  margin-top: 60px;
+}
