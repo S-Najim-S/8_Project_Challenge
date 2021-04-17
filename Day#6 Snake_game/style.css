@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-family: Martel;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.display {
+  display: grid;
+  background-color: #ccc;
+  width: 100vmin;
+  height: 100vmin;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
+.snake {
+  background-color: #005a34;
+  border: 0.25vmin solid black;
+}
+.food {
+  background-color: #ffdc8a;
+  border: 0.25vmin solid black;
+}
