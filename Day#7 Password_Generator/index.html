@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/194f309e26.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Generate your strong password!</h1>
+      <p>recomended password length is 12 letter</p>
+    </div>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-body">
+          <div class="text-input">
+            <span id="my-password">S_naJi1M71S7</span>
+            <button id="copy"><i class="fas fa-copy"></i></button>
+          </div>
+          <div class="form-control">
+            <label for="len">Password Length:</label>
+            <input type="number" value="6" min="6" max="40" id="len" />
+          </div>
+
+          <div class="form-control">
+            <label for="upper">Uppercase Letters:</label>
+            <input type="checkbox" id="upper" checked />
+          </div>
+
+          <div class="form-control">
+            <label for="lower">Lowercase Letters:</label>
+            <input type="checkbox" id="lower" />
+          </div>
+
+          <div class="form-control">
+            <label for="num">Number:</label>
+            <input type="checkbox" id="num" />
+          </div>
+
+          <div class="form-control">
+            <label for="symb">Symbol:</label>
+            <input type="checkbox" id="symb" />
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="generate">Generate</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
