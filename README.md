@@ -27,3 +27,24 @@ I got inspired by Florin Pop to take this challenge. :)
   <li>Rock paper scissor</li>
 </ul>
 
+<h4>Day 5</h4>
+<ul>
+  <li>Game</li>
+  <li>Connect the dots</li>
+</ul>
+
+<h4>Day 6</h4>
+<ul>
+  <li>Game</li>
+  <li>Snake Game</li>
+</ul>
+
+<h4>Day 7</h4>
+<ul>
+  <li>Password_Generator</li>
+</ul>
+
+<h4>Day 8</h4>
+<ul>
+  <li>Calculator</li>
+</ul>
